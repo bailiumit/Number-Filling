@@ -1,0 +1,13 @@
+C:\NumberFilling\NumberFilling\bin\Debug\NumberFilling.exe.config
+C:\NumberFilling\NumberFilling\bin\Debug\NumberFilling.exe
+C:\NumberFilling\NumberFilling\bin\Debug\NumberFilling.pdb
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.csprojResolveAssemblyReference.cache
+C:\NumberFilling\NumberFilling\obj\Debug\MainWindow.baml
+C:\NumberFilling\NumberFilling\obj\Debug\MainWindow.g.cs
+C:\NumberFilling\NumberFilling\obj\Debug\App.g.cs
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling_MarkupCompile.cache
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.g.resources
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.Properties.Resources.resources
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.csproj.GenerateResource.Cache
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.exe
+C:\NumberFilling\NumberFilling\obj\Debug\NumberFilling.pdb
