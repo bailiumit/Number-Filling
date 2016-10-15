@@ -1,9 +1,51 @@
 ﻿<Window x:Class="NumberFilling.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Label Name="result_label" Content="Result" HorizontalAlignment="Left" Margin="46,34,0,0" VerticalAlignment="Top" Width="393" Height="257"/>
+        Title="Number Filling Game" Height="300" Width="300">
+
+    <Grid Name="Main_Grid">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Name="Input_Grid" 
+              Grid.Row="0" Grid.Column="0"
+              Background="#FFFFFF" ShowGridLines="False">
+            <TextBox FontFamily="Segoe UI Symbol" FontSize="16" Foreground="#373737"
+                     Name="result_TextBox" TextWrapping="Wrap" AcceptsReturn="true" Margin="10,0,10,0" IsReadOnly="True"/>
+        </Grid>
+
+        <Grid Name="Result_Grid" 
+              Grid.Row="1" Grid.Column="0"
+              Background="#373737" ShowGridLines="False">
+            <Label Content="EXPRESSION" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" 
+                   FontFamily="Segoe UI Semilight" Foreground="#F0F0F0" FontSize="12"/>
+            <TextBox Text="Only input + - * / ( ) X" Name="expression_TextBox" HorizontalAlignment="Left" Height="20" 
+                     Margin="105,20,0,0" TextWrapping="Wrap" 
+                     FontFamily="Segoe UI Semilight" FontSize="10" VerticalAlignment="Top" Width="160" Background="#F0F0F0" 
+                     MouseEnter="expression_TextBox_MouseEnter" PreviewTextInput="expression_TextBox_PreviewTextInput"/>
+
+            <Label Content="NUMBER" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" 
+                   FontFamily="Segoe UI Semilight" Foreground="#F0F0F0" FontSize="12"/>
+            <TextBox Text="Input numbers with no space"  Name="number_TextBox" HorizontalAlignment="Left" Height="20" 
+                     Margin="105,60,0,0" TextWrapping="Wrap" 
+                     FontFamily="Segoe UI Semilight" FontSize="10" VerticalAlignment="Top" Width="160" Background="#F0F0F0"
+                     MouseEnter="number_TextBox_MouseEnter" PreviewTextInput="number_TextBox_PreviewTextInput"/>
+
+            <Label Content="OBJECTIVE" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" 
+                   FontFamily="Segoe UI Semilight" Foreground="#F0F0F0" FontSize="12"/>
+            <ComboBox Name="objective_ComboBox" HorizontalAlignment="Left" Margin="105,100,0,0" FontSize="10"
+                      FontFamily="Segoe UI Semilight" VerticalAlignment="Top" Width="102" DropDownClosed="ComboBox_DropDownClosed">
+            </ComboBox>
+            <TextBox Name="nearest_TextBox" HorizontalAlignment="Left" Height="20" Margin="215,100,0,0" TextWrapping="Wrap" 
+                     FontSize="10" FontFamily="Segoe UI Semilight" VerticalAlignment="Top" Width="50" 
+                     TextChanged="nearest_TextBox_TextChanged" Background="#F0F0F0" PreviewTextInput="nearest_TextBox_PreviewTextInput"/>
+            <Button Name="search_Button" Content="SEARCH" HorizontalAlignment="Left" Margin="100,141,0,0" VerticalAlignment="Top"  
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    FontFamily="Segoe UI Semilight" Width="100" Height="25" Background="#373737" Foreground="#F0F0F0" Click="search_Button_Click"/>
+        </Grid>
 
     </Grid>
 </Window>

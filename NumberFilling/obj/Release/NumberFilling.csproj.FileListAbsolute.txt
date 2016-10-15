@@ -1,0 +1,12 @@
+C:\NumberFilling\NumberFilling\bin\Release\NumberFilling.exe.config
+C:\NumberFilling\NumberFilling\bin\Release\NumberFilling.exe
+C:\NumberFilling\NumberFilling\bin\Release\NumberFilling.pdb
+C:\NumberFilling\NumberFilling\obj\Release\MainWindow.baml
+C:\NumberFilling\NumberFilling\obj\Release\MainWindow.g.cs
+C:\NumberFilling\NumberFilling\obj\Release\App.g.cs
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling_MarkupCompile.cache
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.g.resources
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.Properties.Resources.resources
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.csproj.GenerateResource.Cache
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.exe
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.pdb
