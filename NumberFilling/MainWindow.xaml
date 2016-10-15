@@ -14,7 +14,7 @@
               Grid.Row="0" Grid.Column="0"
               Background="#FFFFFF" ShowGridLines="False">
             <TextBox FontFamily="Segoe UI Symbol" FontSize="16" Foreground="#373737"
-                     Name="result_TextBox" TextWrapping="Wrap" AcceptsReturn="true" Margin="10,0,10,0" IsReadOnly="True"/>
+                     Name="result_TextBox" TextWrapping="Wrap" AcceptsReturn="true" Margin="10,10,10.037,9.927" IsReadOnly="True" BorderThickness="0"/>
         </Grid>
 
         <Grid Name="Result_Grid" 

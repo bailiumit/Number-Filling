@@ -10,3 +10,4 @@ C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.Properties.Resources.re
 C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.csproj.GenerateResource.Cache
 C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.exe
 C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.pdb
+C:\NumberFilling\NumberFilling\obj\Release\NumberFilling.csprojResolveAssemblyReference.cache
